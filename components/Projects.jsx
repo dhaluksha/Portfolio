@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import yeeImg from '../public/assets/projects/yee.jpg';
 import noteImg from '../public/assets/projects/note.png';
 import hotelImg from '../public/assets/projects/hotel.png';
 import posImg from '../public/assets/projects/pos.png';
@@ -34,6 +35,13 @@ const Projects = () => {
             backgroundImg={noteImg}
             projectUrl='/note'
             tech='Kotlin | MVVM'
+          />
+
+          <ProjectItem
+            title='Yee Yoga UI/UX'
+            backgroundImg={yeeImg}
+            projectUrl='/yee'
+            tech='FIGMA'
           />
        
             <ProjectItem

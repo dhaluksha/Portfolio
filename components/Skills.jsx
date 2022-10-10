@@ -8,9 +8,9 @@ import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import Python from '../public/assets/skills/python.png'
-import Azure from '../public/assets/skills/azure.png';
+import Xd from '../public/assets/skills/xd.png';
 import Kotlin from '../public/assets/skills/kotlin.png';
-import TensorFlow from '../public/assets/skills/tensorflow.png';
+import Figma from '../public/assets/skills/figma.png';
 import Csharp from '../public/assets/skills/c.png';
 import Net from '../public/assets/skills/net.png';
 import PHP from '../public/assets/skills/php.png';
@@ -87,6 +87,28 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Figma} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Figma</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Xd} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Adobe XD</h3>
+              </div>
+            </div>
+          </div>
+
+
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
