@@ -6,6 +6,11 @@ import noteImg from '../public/assets/projects/note.png';
 import hotelImg from '../public/assets/projects/hotel.png';
 import posImg from '../public/assets/projects/pos.png';
 import ecomImg from '../public/assets/projects/ecom.png';
+import pizzahutimg from '../public/assets/projects/pizzahut.png';
+import nftimg from '../public/assets/projects/nft.png';
+import travelimg from '../public/assets/projects/travel.png';
+import trackerimg from '../public/assets/projects/tracker.png';
+import herimg from '../public/assets/projects/her.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -36,14 +41,42 @@ const Projects = () => {
             projectUrl='/note'
             tech='Kotlin | MVVM'
           />
-
+          <ProjectItem
+            title='PizzaHut Mobile App UX/UI Redesign'
+            backgroundImg={pizzahutimg}
+            projectUrl='/pizzahut'
+            tech='Figma'
+          />
           <ProjectItem
             title='Yee Yoga UI/UX'
             backgroundImg={yeeImg}
             projectUrl='/yee'
-            tech='FIGMA'
+            tech='Figma'
           />
-       
+          <ProjectItem
+            title='Online clothing store website UX/UI design'
+            backgroundImg={herimg}
+            projectUrl='/her'
+            tech='Figma'
+          />
+         <ProjectItem
+            title='Period and Cycle Tracker Mobile App UX/UI design'
+            backgroundImg={trackerimg}
+            projectUrl='/tracker'
+            tech='Figma'
+          />
+            <ProjectItem
+            title='NFT Marketplace UI/UX design'
+            backgroundImg={nftimg}
+            projectUrl='/nft'
+            tech='Figma'
+          />
+            <ProjectItem
+            title='Travel Landing Page design'
+            backgroundImg={travelimg}
+            projectUrl='/travel'
+            tech='Figma'
+          />
             <ProjectItem
             title='EcommerceWebsite'
             backgroundImg={ecomImg}
